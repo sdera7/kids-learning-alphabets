@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alphabet Learning Game</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>🎨 Learn Your ABCs! 🎨</h1>
+            <div class="score-board">
+                <div class="score-item">
+                    <span class="label">Score:</span>
+                    <span id="score" class="score-value">0</span>
+                </div>
+                <div class="score-item">
+                    <span class="label">Progress:</span>
+                    <span id="progress" class="score-value">0/26</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="game-area">
+            <div class="letter-display">
+                <div class="large-letter" id="largeLetterBg">
+                    <div id="largeLetterText">A</div>
+                </div>
+                <div class="letter-info">
+                    <p id="letterWord">Apple</p>
+                    <p id="letterSound">Sound: /ə/</p>
+                </div>
+            </div>
+
+            <div class="controls">
+                <button class="btn btn-primary" id="pronounceBtn" onclick="pronounceLetter()">
+                    🔊 Pronounce
+                </button>
+                <button class="btn btn-secondary" id="repeatBtn" onclick="repeatWord()">
+                    🔂 Say the Word
+                </button>
+            </div>
+
+            <div class="options-grid">
+                <button class="option-btn" id="option0" onclick="checkAnswer(0)"></button>
+                <button class="option-btn" id="option1" onclick="checkAnswer(1)"></button>
+                <button class="option-btn" id="option2" onclick="checkAnswer(2)"></button>
+                <button class="option-btn" id="option3" onclick="checkAnswer(3)"></button>
+            </div>
+
+            <div class="question-text">
+                <p id="question">Which picture matches the letter <span id="questionLetter">A</span>?</p>
+            </div>
+
+            <div class="navigation-buttons">
+                <button class="btn btn-nav" id="nextBtn" onclick="nextLetter()">
+                    ➡️ Next Letter
+                </button>
+                <button class="btn btn-reset" onclick="resetGame()">
+                    🔄 Start Over
+                </button>
+            </div>
+        </div>
+
+        <div class="progress-bar">
+            <div class="progress-fill" id="progressFill"></div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
