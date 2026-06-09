@@ -1,7 +1,7 @@
 // Alphabet data with words and sounds
 const alphabetData = [
     { letter: 'A', word: 'Apple', sound: '/æ/', emoji: '🍎', options: ['🍎', '🍌', '🍊', '🍇'] },
-    { letter: 'B', word: 'Ball', sound: '/b/', emoji: '⚽', options: ['🎈', '⚽', '🎱', '🏀'] },
+    { letter: 'B', word: 'Ball', sound: '/b/', emoji: '⚽', options: ['🎈', '⚽', '🚴', '🍌'] },
     { letter: 'C', word: 'Cat', sound: '/k/', emoji: '🐱', options: ['🐶', '🐱', '🐭', '🐹'] },
     { letter: 'D', word: 'Dog', sound: '/d/', emoji: '🐶', options: ['🐱', '🐶', '🐰', '🦊'] },
     { letter: 'E', word: 'Elephant', sound: '/ɛ/', emoji: '🐘', options: ['🐘', '🦒', '🦓', '🦏'] },
