@@ -5,7 +5,7 @@
 }
 
 body {
-    font-family: 'Comic Sans MS', 'Arial Rounded MT Bold', cursive, sans-serif;
+    font-family: 'Arial', 'Helvetica', sans-serif;
     background: linear-gradient(135deg, #667eea 0%, #764ba2 25%, #f093fb 50%, #4facfe 75%, #00f2fe 100%);
     background-size: 400% 400%;
     animation: gradientShift 15s ease infinite;
@@ -146,7 +146,7 @@ h1 {
     font-weight: bold;
     transition: all 0.3s ease;
     box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
-    font-family: 'Comic Sans MS', cursive;
+    font-family: 'Arial', 'Helvetica', sans-serif;
 }
 
 .btn:hover {
@@ -271,6 +271,7 @@ h1 {
     background: #ddd;
     border-radius: 10px;
     overflow: hidden;
+    margin-bottom: 20px;
 }
 
 .progress-fill {
@@ -279,6 +280,31 @@ h1 {
     width: 0%;
     transition: width 0.5s ease;
     border-radius: 10px;
+}
+
+.footer {
+    text-align: center;
+    border-top: 2px solid #f0f0f0;
+    padding-top: 20px;
+    margin-top: 20px;
+}
+
+.footer p {
+    font-size: 1em;
+    color: #666;
+    margin: 0;
+}
+
+.footer a {
+    color: #667eea;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+.footer a:hover {
+    color: #764ba2;
+    text-decoration: underline;
 }
 
 @media (max-width: 768px) {
@@ -314,5 +340,9 @@ h1 {
 
     .score-board {
         gap: 20px;
+    }
+
+    .footer p {
+        font-size: 0.9em;
     }
 }
