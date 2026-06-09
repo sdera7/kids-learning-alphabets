@@ -5,7 +5,7 @@
 }
 
 body {
-    font-family: 'Arial', 'Helvetica', sans-serif;
+    font-family: 'Quicksand', sans-serif;
     background: linear-gradient(135deg, #667eea 0%, #764ba2 25%, #f093fb 50%, #4facfe 75%, #00f2fe 100%);
     background-size: 400% 400%;
     animation: gradientShift 15s ease infinite;
@@ -41,6 +41,8 @@ h1 {
     color: #667eea;
     margin-bottom: 20px;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 700;
 }
 
 .score-board {
@@ -61,6 +63,7 @@ h1 {
     align-items: center;
     gap: 10px;
     box-shadow: 0 4px 15px rgba(102, 126, 234, 0.4);
+    font-family: 'Quicksand', sans-serif;
 }
 
 .label {
@@ -110,6 +113,7 @@ h1 {
     font-weight: bold;
     color: white;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+    font-family: 'Quicksand', sans-serif;
 }
 
 .letter-info {
@@ -121,12 +125,14 @@ h1 {
     color: #667eea;
     font-weight: bold;
     margin-bottom: 10px;
+    font-family: 'Quicksand', sans-serif;
 }
 
 #letterSound {
     font-size: 1.3em;
     color: #764ba2;
     margin-top: 5px;
+    font-family: 'Quicksand', sans-serif;
 }
 
 .controls {
@@ -146,7 +152,7 @@ h1 {
     font-weight: bold;
     transition: all 0.3s ease;
     box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
-    font-family: 'Arial', 'Helvetica', sans-serif;
+    font-family: 'Quicksand', sans-serif;
 }
 
 .btn:hover {
@@ -199,6 +205,7 @@ h1 {
     transition: all 0.3s ease;
     font-weight: bold;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    font-family: 'Quicksand', sans-serif;
 }
 
 .option-btn:hover {
@@ -250,6 +257,7 @@ h1 {
     font-size: 1.3em;
     color: #333;
     font-weight: bold;
+    font-family: 'Quicksand', sans-serif;
 }
 
 #questionLetter {
@@ -293,6 +301,7 @@ h1 {
     font-size: 1em;
     color: #666;
     margin: 0;
+    font-family: 'Quicksand', sans-serif;
 }
 
 .footer a {
@@ -300,6 +309,7 @@ h1 {
     text-decoration: none;
     font-weight: bold;
     transition: color 0.3s ease;
+    font-family: 'Quicksand', sans-serif;
 }
 
 .footer a:hover {
