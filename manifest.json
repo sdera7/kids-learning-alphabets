@@ -1,0 +1,13 @@
+{
+  "background_color": "#0bb1d6",
+  "dir": "ltr",
+  "display": "standalone",
+  "name": "Alphabets",
+  "orientation": "any",
+  "scope": "/",
+  "short_name": "Alphabets",
+  "start_url": "/",
+  "theme_color": "#2193c6",
+  "id": "Alphabets",
+  "description": "Trace, play, and learn! The bright, simple, and ad-free way for your toddler to master the ABCs"
+}
